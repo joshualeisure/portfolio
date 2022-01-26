@@ -11,7 +11,7 @@ const NavItem: FunctionComponent<{
   return activeItem !== name ? (
     <Link href={route}>
       <a>
-        <span className="hover:text-green" onClick={() => setActiveItem(name)}>
+        <span className="text-black hover:text-green dark:text-white" onClick={() => setActiveItem(name)}>
           {name}
         </span>
       </a>
@@ -46,6 +46,7 @@ const Navbar = () => {
           setActiveItem={setActiveItem}
           name="Projects"
           route="/projects"
+          
         />
         <NavItem
           activeItem={activeItem}
