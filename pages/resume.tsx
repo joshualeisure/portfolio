@@ -1,16 +1,18 @@
 import React from 'react';
 import Bar from '../components/Bar';
 import { languages, tools } from '../data';
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion';
 import { fadeInUp, routeAnimation } from '../animations';
 
 const resume = () => {
-
   return (
-    <motion.div className="px-6 py-2"   variants={routeAnimation}
-    initial="initial"
-    animate="animate"
-    exit="exit">
+    <motion.div
+      className="px-6 py-2"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       {/* experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -20,9 +22,9 @@ const resume = () => {
           </h5>
           <p className="font-semibold">Purdue University (2017-2020)</p>
           <p className="my-3">
-            After finishing my degree, I decided that it wasn't the correct fit.
-            I quickly switched to software development which has been the best decision I have
-            ever made.
+            After finishing my degree, I decided that it wasn&apos;t the correct fit.
+            I quickly switched to software development which has been the best
+            decision I have ever made.
           </p>
         </motion.div>
 
@@ -34,7 +36,8 @@ const resume = () => {
           <p className="font-semibold">January 2021 - Present</p>
           <p className="my-3">
             At SpinSpire, we create applications for a variety of clients, using
-            technology like react, svelte, react native, nodeJs, express, etc... to create mobile and web applications.
+            technology like react, svelte, react native, nodeJs, express, etc...
+            to create mobile and web applications.
           </p>
         </motion.div>
       </div>
