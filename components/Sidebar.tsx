@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
-import { GiTie } from 'react-icons/gi';
+import { ImFilePdf } from 'react-icons/im';
 import Image from 'next/image';
 
 import { useTheme } from 'next-themes';
@@ -30,11 +30,11 @@ const Sidebar = () => {
         Mobile & Web Developer
       </p>
       <a
-        href="/Joshua_Leisure_Resume.pdf"
-        download="Joshua_Leisure_Resume.pdf"
+        href="/JoshuaLeisure_Resume.pdf"
+        download="JoshuaLeisure_Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
       >
-        <GiTie className="w-6 h-6" />
+        <ImFilePdf color='#ff007f' className="w-5 h-5 pr-1" />
        <span> Download Resume </span>
       </a>
       {/* Socials */}
