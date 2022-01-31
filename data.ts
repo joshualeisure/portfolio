@@ -147,17 +147,17 @@ export const projects: IProject[] = [
     ],
   },
 
-  // {
-  //   id: 4,
-  //   name: "Realtime Chat App",
-  //   image_path: "/computer.jpeg",
-  //   deployed_url: "https://sumit-chat.netlify.app/",
-  //   github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-  //   category: ["node", "react"],
-  //   description:
-  //     "Basic Realtime Chat App where one can create a room can talk to each other",
-  //   key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  // },
+  {
+    id: 4,
+    name: "RN Shopping App",
+    image_path: "/computer.jpeg",
+    deployed_url: "https://expo.dev/@joshualeisure/rn-shopping-app",
+    github_url: "https://github.com/joshualeisure/rn-shopping-app",
+    category: ["react native"],
+    description:
+      "A pratice project to learn redux and redux thunk and how to integrate that into a react native and firebase app. It allows the user to create an account and create/order items as an admin can.",
+    key_techs: ["React", "React Native", "Firebase", "Redux", "Redux Thunk"],
+  },
 
   // {
   //   id: 5,
