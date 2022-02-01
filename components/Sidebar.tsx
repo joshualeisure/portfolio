@@ -30,7 +30,7 @@ const Sidebar = () => {
         Mobile & Web Developer
       </p>
       <a
-        href="/JoshuaLeisure_Resume.pdf"
+        href="/Leisure_Joshua_Resume.pdf"
         download="JoshuaLeisure_Resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-300"
       >
